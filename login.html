@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" id="pageStyle" href="./css/style.css">
+  <script src="./node.js"></script>
+  <title>Login</title>
+</head>
+
+<body class="bgUniversal">
+  
+    <div class="toggleDiv">
+        <p class="firstLine">For changing styles</p>
+        <li class="style "><button onclick="swapStylesheet('css/style.css')" class="btn">Default</button> </li>
+        <li class="style "><button onclick="swapStylesheet('css/style1.css')" class="btn">Stylesheet 1</button> </li>
+        <li class="style "><button onclick="swapStylesheet('css/style2.css')" class="btn">Stylesheet 2</button> </li>
+    
+      </div>
+  <h1 class="heading1">
+
+    <span class="firstPart">
+      Login To
+    </span>
+    <span class="lastPart">
+      Your Account
+    </span>
+  </h1>
+
+
+  <form class="loginForm" action="/index.html" method="POST">
+    <p>
+      <label class="label" for="username">Username:</label>
+      <input class="inputFeild" required type="text" name="username" id="username" placeholder="Username" >
+    </p>
+    <p>
+      <label class="label" for="email">Email:</label>
+      <input type="email" name="email" class="inputFeild" required id="email" placeholder="Email Adress" >
+    </p>
+    <p>
+      <label class="label" for="password">Password:</label>
+      <input type="password" name="password" id="password" class="inputFeild" required placeholder="Password" >
+    </p>
+    <a href="./index.html"> <button class="btn" type="submit"> Login</button></a>
+    <p class="redirectBtnPara">By clicking the Login button you have been directed to the home page!</p>
+  </form>
+  <div class="btnDiv">
+    <p>
+      Dont have an account?
+      Please <a href="./register.html"><button class="btn">Register yourself!</button></a>
+    </p>
+  </div>
+  <footer class="footer">
+    <p>
+      Developed by
+      <a class="link" href="https://www.facebook.com/ismail.sheikh.754918">
+        Muhammad Ismail</a>
+      Roll no: 522
+      Section:A
+    </p>
+    <p class="copyright">2019 &#9400; All rights reserved </p>
+
+  </footer>
+  
+</body>
+
+</html>

@@ -1,0 +1,303 @@
+/* ************* */
+/* ! Universal */
+/* ************* */
+body {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding: 0;
+  margin: 0;
+  color: white;
+}
+html {
+  font-size: 62.5%;
+}
+
+/* ************* */
+/* ! for bg with image */
+/* ************* */
+
+.bgUniversal {
+  background-image: url('http://getwallpapers.com/wallpaper/full/3/0/7/329431.jpg');
+  background-size: cover;
+}
+
+/* ************* */
+/* ! button universal */
+/* ************* */
+
+.btn {
+  width: 15rem;
+  padding: 1rem 0;
+  margin: 3rem 0 3rem 0;
+  background: rgba(255, 255, 255, 0.4);
+  border-radius: 2rem;
+  border: 1px dashed black;
+  outline: none;
+  font-size: 1.5rem;
+  font-family: inherit;
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+}
+.btnDiv {
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+/* ************* */
+/* ! link */
+/* ************* */
+
+.link {
+  text-decoration: none;
+  /* background: red; */
+  color: rgb(0, 0, 0);
+}
+
+/* ************* */
+/* ! heading h1  */
+/* ************* */
+
+.heading1 {
+  text-align: center;
+  font-size: 4rem;
+}
+
+/* ********* */
+/* ! heading h2  */
+/* ********* */
+.heading2 {
+  margin-left: 7rem;
+  font-size: 3rem;
+  text-align: center;
+}
+
+/* ************* */
+/* ! heading h3  */
+/* ************* */
+.heading3 {
+  margin-left: 7rem;
+  font-size: 2rem;
+  text-align: center;
+}
+
+/* ! First span of heading */
+.firstPart {
+  color: rgb(255, 255, 255);
+}
+/* ! last span of heading */
+
+.lastPart {
+  color: #434343;
+}
+/* ! label */
+.label {
+  width: 40%;
+  display: inline-block;
+  text-align: justify;
+}
+
+/* ********* */
+/* ! list style  */
+/* ********* */
+ul {
+  list-style-type: disc;
+}
+li {
+  font-size: 2rem;
+}
+
+/* * last para of page with btn */
+.redirectBtnPara {
+  font-size: 1.3rem;
+  cursor: not-allowed;
+}
+
+/* ************ */
+/* ! textarea Feilds of form  */
+/* ************ */
+.textAreaFeild {
+  display: inline-block;
+  height: 10rem;
+  width: 80%;
+  margin-left: 8rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  border: none;
+  outline: none;
+  box-shadow: 0 0.5rem 0.4rem rgba(0, 0, 0, 0.233);
+}
+/* * On focus */
+.textAreaFeild:focus {
+  box-shadow: 0 1rem 4rem;
+  border-bottom: 3px solid black;
+}
+/* * On invalid */
+
+.textAreaFeild:focus:invalid {
+  border-bottom: 3px dashed grey;
+}
+/* * placeholders */
+.textAreaFeild::-webkit-input-placeholder {
+  font-style: italic;
+  letter-spacing: 0.2rem;
+}
+/* ************ */
+/* ! Input Feilds of form  */
+/* ************ */
+.inputFeild {
+  height: 1rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  border: none;
+  outline: none;
+  box-shadow: 0 0.5rem 0.4rem rgba(0, 0, 0, 0.5);
+}
+/* * On focus */
+.inputFeild:focus {
+  box-shadow: 0 1rem 4rem;
+  border-bottom: 3px solid black;
+}
+/* * On invalid */
+
+.inputFeild:focus:invalid {
+  border-bottom: 3px dashed grey;
+}
+/* * placeholders */
+.inputFeild::-webkit-input-placeholder {
+  font-style: italic;
+  letter-spacing: 0.2rem;
+}
+
+/* ********* */
+/* ! Home page */
+/* ********* */
+
+.homeDiv {
+  background-color: rgba(255, 255, 255, 0.308);
+  border: 1rem inset grey;
+  width: 80%;
+  padding: 2rem;
+  color: black;
+  margin: 0 auto 3rem;
+  line-height: 1.5rem;
+}
+/*  * li content  */
+.liContent {
+  width: 70%;
+  display: inline-block;
+}
+
+/* ********* */
+/* ! contact page */
+/* ********* */
+.contactForm {
+  font-size: 2rem;
+  border: 1rem outset grey;
+  line-height: 2;
+  width: 85%;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: rgba(255, 255, 255, 0.308);
+}
+
+/* ********* */
+/* ! login page */
+/* ********* */
+.loginForm {
+  text-align: center;
+  font-size: 2rem;
+  border: 1rem inset grey;
+  line-height: 2;
+  width: 65%;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: rgba(255, 255, 255, 0.308);
+}
+
+/* ********* */
+/* ! Register page */
+/* ********* */
+.registerForm {
+  text-align: center;
+  font-size: 2rem;
+  line-height: 2;
+  width: 80%;
+  margin: 0 auto;
+  padding: 2rem;
+  border: 1rem outset grey;
+  background-color: rgba(255, 255, 255, 0.308);
+}
+/* ! textarea Feilds of form of Registerpage */
+.textAreaFeildRegister {
+  width: 40%;
+  padding: 1rem;
+  border-radius: 2rem;
+  border: none;
+  outline: none;
+  box-shadow: 0 0.5rem 0.4rem rgba(0, 0, 0, 0.5);
+}
+/* * On focus */
+.textAreaFeildRegister:focus {
+  box-shadow: 0 1rem 4rem;
+  border-bottom: 3px solid black;
+}
+/* * On invalid */
+
+.textAreaFeildRegister:focus:invalid {
+  border-bottom: 3px dashed grey;
+}
+/* * placeholders */
+.textAreaFeildRegister::-webkit-input-placeholder {
+  font-style: italic;
+  letter-spacing: 0.2rem;
+}
+.Details {
+  text-align: justify;
+  border-bottom: 2px double white;
+}
+.Details .label {
+  text-align: left;
+}
+
+/* ********** */
+/* ! Message PAge */
+/* ********** */
+.messagePage {
+  width: 50%;
+  margin: 0 auto;
+  font-size: 7rem;
+  line-height: 7.98rem;
+  padding: 2rem;
+  background-color: rgba(255, 255, 255, 0.308);
+  border: 1rem inset grey;
+}
+
+/* ************************* */
+/* ! Footer  */
+/* ************************* */
+
+.footer {
+  color: white;
+  /* background: rgba(255, 255, 255, 0.6); */
+  background-image: linear-gradient(#000000 5%, #434343 90%);
+  padding: 5rem 0;
+  margin: 0;
+  font-size: 1.5rem;
+  width: 100%;
+  text-align: center;
+}
+
+/* !!!!!!!!!!!!!!!!!!!!! */
+/* ? Additional for different stylesheets toogling */
+/* !!!!!!!!!!!!!!!!!!!!! */
+.toggleDiv {
+  width: 100%;
+  text-align: right;
+}
+.style {
+  display: inline-block;
+}
+
+.firstLine {
+  font-size: 2rem;
+  text-align: right;
+}
