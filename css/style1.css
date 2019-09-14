@@ -16,8 +16,9 @@ html {
 /* ************* */
 
 .bgUniversal {
-  background-image: url('http://getwallpapers.com/wallpaper/full/3/0/7/329431.jpg');
+  background-image: url('../images/329431.jpg');
   background-size: cover;
+  background-attachment: fixed;
 }
 
 /* ************* */
@@ -49,7 +50,7 @@ html {
 .link {
   text-decoration: none;
   /* background: red; */
-  color: rgb(0, 0, 0);
+  color: #999;
 }
 
 /* ************* */
@@ -58,7 +59,7 @@ html {
 
 .heading1 {
   text-align: center;
-  font-size: 4rem;
+  font-size: 6rem;
 }
 
 /* ********* */
@@ -99,7 +100,7 @@ html {
 /* ! list style  */
 /* ********* */
 ul {
-  list-style-type: disc;
+  list-style-type: none;
 }
 li {
   font-size: 2rem;
@@ -166,6 +167,67 @@ li {
   font-style: italic;
   letter-spacing: 0.2rem;
 }
+/* * bg for name input */
+#name{
+  background-image:url(../images/name.png);
+  background-size: 20px;
+  background-repeat: no-repeat;
+  background-position-x: 16rem;
+  background-position-y: .5rem;
+}
+
+/* * bg for email input */
+#email{
+  background-image:url(../images/email.png);
+  background-size: 20px;
+  background-repeat: no-repeat;
+  background-position-x: 16rem;
+  background-position-y: .5rem;
+}
+
+/* * bg for username input */
+#username{
+  background-image:url(../images/username.png);
+  background-size: 20px;
+  background-repeat: no-repeat;
+  background-position-x: 16rem;
+  background-position-y: .5rem;
+}
+
+
+/* * bg for password input */
+#password{
+  background-image:url(../images/password.png);
+  background-size: 20px;
+  background-repeat: no-repeat;
+  background-position-x: 16rem;
+  background-position-y: .5rem;
+}
+/* * bg for password input */
+#password{
+  background-image:url(../images/password.png);
+  background-size: 20px;
+  background-repeat: no-repeat;
+  background-position-x: 16rem;
+  background-position-y: .5rem;
+}
+/* * bg for city select tag  */
+#city{
+  background-image:url(../images/icons8-city-96.png);
+  background-size: 20px;
+  background-repeat: no-repeat;
+  background-position-x: 7rem;
+}
+
+/* * bg for adress textarea tag  */
+#adress{
+  background-image:url(../images/adress.png);
+  background-size: 20px;
+  background-repeat: no-repeat;
+  background-position-x: 15rem;
+  background-position-y: 4rem;
+}
+
 
 /* ********* */
 /* ! Home page */
@@ -272,12 +334,64 @@ li {
 }
 
 /* ************************* */
+/* ! Products  */
+/* ************************* */
+
+/* products divs */
+.products {
+  width: 70%;
+  text-align: center;
+  font-size: 2rem;
+  line-height: 2;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: rgba(255, 255, 255, 0.308);
+  border: 1rem inset grey;
+}
+
+/* * images div */
+.images {
+  display: inline-block;
+  width: 80%;
+  text-align: center;
+  padding: 2rem;
+  background-color: rgba(255, 255, 255, 0.308);
+  border: 1rem inset grey;
+  margin-left: 15rem;
+}
+/* * images itself */
+.imgs {
+  margin: 0 auto;
+  display: inline-block;
+}
+
+/* ************************* */
+/* ! Timings page  */
+/* ************************* */
+
+/* * Table of this page  */
+.table {
+  width: 100%;
+  background-color: rgba(250, 235, 215, 0.178);
+  text-align: center;
+  font-size: 2rem;
+  padding: 10rem;
+  margin: 2rem 0;
+  color: white;
+}
+
+/* * rows of table */
+.tablerowbg {
+  background-color: white;
+  color: black;
+}
+
+/* ************************* */
 /* ! Footer  */
 /* ************************* */
 
 .footer {
   color: white;
-  /* background: rgba(255, 255, 255, 0.6); */
   background-image: linear-gradient(#000000 5%, #434343 90%);
   padding: 5rem 0;
   margin: 0;
@@ -291,13 +405,12 @@ li {
 /* !!!!!!!!!!!!!!!!!!!!! */
 .toggleDiv {
   width: 100%;
-  text-align: right;
+  text-align: center;
 }
 .style {
   display: inline-block;
 }
-
 .firstLine {
   font-size: 2rem;
-  text-align: right;
+  text-align: center;
 }

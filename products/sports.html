@@ -5,36 +5,55 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" id="pageStyle" href="../css/style.css">
+  <script src="../node.js"></script>
   <title>Sports</title>
 </head>
 
-<body>
-  <h1>Sports</h1>
-  <p>Use our Sports.
+<body class="bgUniversal">
+  <div class="toggleDiv">
+    <p class="firstLine">For changing styles</p>
+    <li class="style "><button onclick="swapStylesheet('../css/style.css')" class="btn">Default</button> </li>
+    <li class="style "><button onclick="swapStylesheet('../css/style1.css')" class="btn">Dark Theme</button> </li>
+
+  </div>
+  <h1 class="heading1">
+
+    <span class="firstPart">
+      Sports
+    </span>
+    <span class="lastPart">
+      Items
+    </span>
+  </h1>
+
+  <h2 class="heading2">Use our Sports.
     You will definately like it.
-  </p>
-  <h2>Here are some things to show you!!!</h2>
-  <hr>
-  <img src="../images/sports1.jpg" alt="" width="300px">
-  <hr>
-  <img src="../images/sports2.jpg" alt="" width="300px">
-  <hr>
-  <img src="../images/sports3.jpeg" alt="" width="300px">
-  <hr>
-  <img src="../images/sports4.jpeg" alt="" width="300px">
-  <hr>
-  <img src="../images/sports5.jpeg" alt="" width="300px">
-  <hr>
-  <img src="../images/sports6.jpeg" alt="" width="300px">
-  <hr>
-  <h2>Thank You!</h2>
-  <a href="../index.html"><button>Back to home page!</button></a>
-  <hr>
-  <footer align="center">
-    <br>
-    Developed by <a href="https://www.facebook.com/ismail.sheikh.754918">Muhammad Ismail</a><br>
-    Roll no: 522 <br>
-    Section:A
+  </h2>
+  <h3 class="heading3">Here are some things to show you!!!</h3>
+  <div class="images">
+
+    <img class="imgs" src="../images/sports1.jpg" alt="" width="300px">
+    <img class="imgs" src="../images/sports2.jpg" alt="" width="300px">
+    <img class="imgs" src="../images/sports3.jpeg" alt="" width="300px">
+    <img class="imgs" src="../images/sports4.jpeg" alt="" width="300px">
+    <img class="imgs" src="../images/sports6.jpeg" alt="" width="300px">
+  </div>
+  <h2 class="heading2">Thank You!</h2>
+  <div class="btnDiv">
+
+    <a href="../index.html"><button class="btn">Back to home page!</button></a>
+  </div>
+  <footer class="footer">
+    <p>
+      Developed by
+      <a class="link" href="https://www.facebook.com/ismail.sheikh.754918">
+        Muhammad Ismail</a>
+      Roll no: 522
+      Section:A
+    </p>
+    <p class="copyright ">2019 &#9400; All rights reserved </p>
+
   </footer>
 </body>
 
